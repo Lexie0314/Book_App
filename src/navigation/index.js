@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { Box,Image, Text, Pressable } from '@gluestack-ui/themed';
+import { Box,Image, Text, Pressable,} from '@gluestack-ui/themed';
 
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -59,7 +59,7 @@ const MyDrawer = () => {
     <Drawer.Navigator
       initialRouteName="HomeStack"
       screenOptions={{
-        drawerStyle: { width: 300 },
+        drawerStyle: { width: 250 },
         drawerActiveBackgroundColor: 'white',
         drawerInactiveTintColor:'#666666',
         drawerActiveTintColor: '#6200EE',
@@ -114,7 +114,7 @@ const MyTabs = () => {
       initialRouteName="HomeStack"
       screenOptions={{
         tabBarActiveTintColor: '#6200EE',
-        tabBarStyle: { height: 56 }
+        tabBarStyle: { height: 70 }
         //headerShown:false
       }}
     >
@@ -125,7 +125,7 @@ const MyTabs = () => {
           headerShown: false,
           title: "Home",
           tabBarIcon: ({ color }) => (
-            <MaterialCommunityIcons name="home" color={color} size={26} />
+            <MaterialCommunityIcons name="home" color={color} size={30} />
           ),
         }}
       />
@@ -139,7 +139,7 @@ const MyTabs = () => {
             fontSize: 20
           },
           tabBarIcon: ({ color }) => (
-            <MaterialCommunityIcons name="bookmark" color={color} size={26} />
+            <MaterialCommunityIcons name="bookmark" color={color} size={30} />
           ),
         }}
       />
@@ -153,7 +153,7 @@ const MyTabs = () => {
             fontSize: 20
           },
           tabBarIcon: ({ color }) => (
-            <MaterialCommunityIcons name="book-open" color={color} size={26} />
+            <MaterialCommunityIcons name="book-open" color={color} size={30} />
           ),
         }}
       />

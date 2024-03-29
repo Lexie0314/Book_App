@@ -1,16 +1,16 @@
 import React from "react";
-import { StyleSheet, View ,} from "react-native";
+import { StyleSheet, View ,Image} from "react-native";
 
-const starlist = ({star}) => {
+const Starlist = ({star}) => {
 
     let starList = [];
 
     for(let i=1;i<=5;i++){
         if (star>=i){
-            starList.push( <image source={require('../img/icon_star_filled.png')}style={styles.star} key={i}/>)
+            starList.push( <Image source={require('../img/icon_star_filled.png')}style={styles.star} key={i}/>)
         }
         else{
-            starList.push( <image source={require('../img/icon_star_empty.png')}style={styles.star} key={i}/>)
+            starList.push( <Image source={require('../img/icon_star_empty.png')}style={styles.star} key={i}/>)
         }
     }
     return (
@@ -30,4 +30,4 @@ const styles =StyleSheet.create({
         height: 20
     }
 })
-export default starlist
+export default Starlist

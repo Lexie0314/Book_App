@@ -1,0 +1,59 @@
+[
+    {
+       "title": "Popular Books",
+       "horizontal": true,
+       "data": [
+          {
+             "bookname": "Fashionopolis",
+             "author": "Dana Thomas",
+             "showStar":false,
+             "image": "https://github.com/Lexie0314/Book_App/blob/main/img/img_book_chanel.png?raw=true",
+             "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
+          },
+          {
+             "bookname": "Chanel",
+             "author": "Patrick Mauriès",
+             "showStar":false,
+             "image": "https://github.com/Lexie0314/Book_App/blob/main/img/img_book_chanel.png?raw=true",
+             "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
+          },
+          {
+             "bookname": "Calligraphy",
+             "author": "June & Lucy",
+             "showStar":false,
+             "image": "https://github.com/Lexie0314/Book_App/blob/main/img/img_book_calligraphy.png?raw=true",
+             "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
+          }
+       ]
+    },
+    {
+       "title": "Newest",
+       "horizontal": true,
+       "data": [
+          {
+             "bookname": "Yves Saint Laurent",
+             "author": "Suzy Menkes",
+             "showStar":true,
+             "star":4,
+             "image": "https://github.com/Lexie0314/Book_App/blob/main/img/img_book_ysl.png?raw=true",
+             "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
+          },
+          {
+             "bookname": "The Book of Signs",
+             "author": "Rudolf Koch",
+             "showStar":true,
+             "star":3,
+             "image": "https://github.com/Lexie0314/Book_App/blob/main/img/img_book_tbos.png?raw=true",
+             "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
+          },
+          {
+             "bookname": "Stitched Up",
+             "author": "Tansy E. Hoskins",
+             "showStar":true,
+             "star":3,
+             "image": "https://github.com/Lexie0314/Book_App/blob/main/img/img_book_stitchedup.png?raw=true",
+             "descriptions": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
+          }
+       ]
+    }
+ ]
